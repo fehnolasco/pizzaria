@@ -1,0 +1,28 @@
+{
+  "name": "nogueiras_pizzaria",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "eslint src/js",
+    "start": "node server.js",
+    "devstart": "nodemon server.js"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "connect-mongo": "^2.0.1",
+    "debug": "^3.1.0",
+    "ejs": "*",
+    "express": "3.2.6",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.1.6",
+    "morgan": "^1.9.0",
+    "nodemailer": "^4.6.2",
+    "npm": "^6.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "nodemon": "^1.17.5"
+  }
+}
